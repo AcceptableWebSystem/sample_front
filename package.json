@@ -6,7 +6,8 @@
         "dev": "vite",
         "build": "vue-tsc --noEmit && vite build",
         "preview": "vite preview",
-        "deploy": "npm run build && aws s3 sync ./dist s3://samplebackendstack-myfirstbucketb8884501-x1btmptrc4un"
+        "deploy": "npm run build && aws s3 sync ./dist s3://samplebackendstack-myfirstbucketb8884501-x1btmptrc4un",
+        "cc": "aws cloudfront create-invalidation --distribution-id ESMRIKHKOGIS3 --paths \"/*\""
     },
     "dependencies": {
         "aws-amplify": "^4.3.16",

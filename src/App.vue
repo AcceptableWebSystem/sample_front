@@ -1,12 +1,12 @@
 <script setup lang="ts">
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import AsaiWorld from './components/AsaiWorld.vue'
-import Signup from './components/signup.vue';
+import AsaiWorld from "./components/AsaiWorld.vue";
+import Signup from "./components/signup.vue";
 </script>
 
 <template>
-  <Signup />
+  <AsaiWorld />
 </template>
 
 <style>
